@@ -1,0 +1,24 @@
+name: Build LaTeX
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  Build-Latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Install Texlive
+        run: apt install texlive
+      - name: Build the PDF
+        run: pdflatex main.tex
+      - name: Archive the PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume-pdf
+          path: main.pdf
