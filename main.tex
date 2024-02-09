@@ -1,34 +1,106 @@
-\documentclass{article}
-\title{Resume}
-\author{Dustin Alandzes}
-\date{December 2023}
+\documentclass[10pt]{article}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage{multicol}
+
+\addtolength{\topmargin}{-.875in}
+
+\title{Dustin Alandzes}
+\author{}
+\date{}
+
 \begin{document}
+   \pagestyle{empty}
    \maketitle
-   \section{Work History}
+   \thispagestyle{empty}
+
+   \begin{center}
+    Katy, TX \break
+    \href{https://github.com/DustinAlandzes/}{https://github.com/DustinAlandzes/}
+    \href{https://www.linkedin.com/in/dustinalandzes}{https://www.linkedin.com/in/dustinalandzes}
+   \end{center}
+
+   \section*{Work History}
+   \textbf{\href{https://www.drchrono.com/}{DrChrono} (Remote)} \hfill {Februrary 2020 to November 2023}
    \begin{itemize}
-      \item DrChrono - Software Engineer - February 2020 to November 2023
-      \item UTSA Coding Bootcamp - Teaching Assistant - January 2020 to June 2020
-      \item Legalist - Junior Software Developer - April 2019 to September 2019
-      \item Dreamers Inc. - Full Stack Web Developer - December 2017 to March 2019
-      \item N-Compass TV - System Administrator - August 2014 to December 2017
-      \item Armando Montelongo Companies - Web Development Intern - June 2014 to August 2014
+     \item[] \textit{Software Engineer}
+     \item[] Member of the clinical team that handled charting, prescriptions, and laboratory tests.
+     Added features, and fixed bugs using Python, Django, TypeScript and React.
+     \item[] Implemented prior authorization which allows providers to ask a patient's insurance if they will pay for a prescription.
+     \item[] Took ownership of the lab ordering functionality, responded to incidents, planned architecture, and had meetings with Quest and LabCorp.
+    \end{itemize}
+
+   \textbf{\href{https://bootcamp.utsa.edu/coding/}{UTSA Coding Bootcamp} (San Antonio)} \hfill {January 2020 to June 2020}
+    \begin{itemize}
+     \item[] \textit{Teaching Assistant}
+     \item[] Helped students learn Git, JavaScript, Node.js and React at the UTSA downtown campus 2 days a week.
+    \end{itemize}
+
+     \textbf{\href{https://www.legalist.com/}{Legalist} (Remote)} \hfill {April 2019 to September 2019}
+    \begin{itemize}
+     \item[] \textit{Junior Software Developer}
+     \item[] Gathered data about new lawsuits using Python, Django and Selenium.
+     \item[] Integrated with the 2Captcha API to solve captcha challenges.
+    \end{itemize}
+
+
+  \textbf{\href{https://thedreamers.us/}{Dreamers Inc.} (Remote)} \hfill {December 2017 to March 2019}
+    \begin{itemize}
+     \item[] \textit{Full Stack Web Developer}
+     \item[] Built projects for clients using Python, Django and React.
+     \item[] Used websockets to provide real-time updates to a social media website.
+    \end{itemize}
+
+   \textbf{\href{https://n-compass.tv/}{N-Compass TV} (San Antonio)} \hfill {August 2014 to December 2017}
+    \begin{itemize}
+        \item[] \textit{System Administrator}
+        \item[] Installed software on Windows and Linux computers.
+         Created small web applications using Python and JavaScript to display news, weather and sports information in businesses.
+    \end{itemize}
+
+   \textbf{\href{https://armandomontelongo.com/}{Armando Montelongo} (San Antonio)} \hfill {June 2014 to August 2014}
+    \begin{itemize}
+     \item[] \textit{Web Development Intern}
+     \item[] Learned about web development by using PHP and Javascript to add features and fix bugs in an event management project.
+    \end{itemize}
+
+   \section*{Education}
+   \noindent
+
+  \textbf{\href{https://www.credly.com/badges/d4012af6-1c9f-4ca8-aa2a-931c2c3c8e5b}{Hashicorp}} \hfill {November 2021 to 2023}
+   \begin{itemize}
+     \item[] \textit{Certified Terraform Associate}
+     \item[] Gained knowledge and experience with Infrastructure as Code using AWS, GCP and Azure.
+     \item[] Utilized that knowledge and got practical experience making small changes and adding linting to continuous integration of the AWS Terraform configuration for an electronic health record.
+    \end{itemize}
+
+  \textbf{\href{https://www.utsa.edu/}{University of Texas at San Antonio}} \hfill {August 2014 to December 2017}
+   \begin{itemize}
+     \item[] \textit{Non-graduate}
+     \item[] Took an intro to electrical engineering class.
+     \item[] Board member of the UTSA eSports Association where I ran Super Smash Brothers Melee tournaments, helped with fundraising and made ethernet cables.
    \end{itemize}
 
-   \section{Education}
+  \textbf{\href{https://www.scuc.txed.net/ByronSteele}{Byron P. Steele II}} \hfill {2010 to 2014}
    \begin{itemize}
-      \item University of Texas at San Antonio - 2014 to 2017
-      \item Byron P. Steele II - Graduated in 2014
+     \item[] \textit{High School Diploma}
    \end{itemize}
 
-   \section{Skills}
+  \section*{Skills}
+
+   \begin{multicols}{2}
    \begin{itemize}
-      \item Python
-      \item JavaScript
-      \item TypeScript
-      \item React
-      \item Git
-      \item Docker
-      \item Terraform
-      \item Test-driven Development
+        \item[] Python \& Django
+        \item[] JavaScript \& TypeScript
+        \item[] React
+        \item[] Git \& GitHub
+        \item[] Docker
+        \item[] AWS \& Terraform
+        \item[] Agile Methodology
+        \item[] Test-Driven Development
    \end{itemize}
+   \end{multicols}
+
 \end{document}
